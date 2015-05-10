@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Bateria</title>
+    </head>
+    <body>
+        <div class="app">
+            <div class="page-header">
+                <h1>Battery-Status <small>Plugin da Bateria</small></h1>
+            </div>
+           <table class="table">
+                <caption>Status da Bateria</caption>
+                <thead>
+                    <tr>
+                        <th>Level (%)</th>
+                        <th>Conectada a energia? </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th id="level" scope="row"></th>
+                        <td id="energia"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <ol class="breadcrumb">
+                <li>Bateria Critica</a></li>
+            </ol>
+            <div class="row">
+                <div class="col-xs-12">
+                    Está Critica?  <input type="radio" name="battery-critical" id="battery-critical" disabled>
+                </div>
+            </div>
+            <ol class="breadcrumb">
+                <li>Bateria Baixa</a></li>
+            </ol>
+            <div class="row">
+                <div class="col-xs-12">
+                    Está Baixa a carga?  <input type="radio" name="battery-low" id="battery-critical" disabled>
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <a href="index.html" class="btn btn-info center-block btn-voltar">Voltar</a>
+            </div>
+        </nav>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/battery.js"></script>
+    </body>
+</html>

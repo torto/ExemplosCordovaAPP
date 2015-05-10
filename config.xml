@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.pato" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>PatoBranco</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="SplashScreen" value="screen" />
+	<preference name="SplashScreenDelay" value="5000" />
+
+	<platform name="android">
+	    <!-- you can use any density that exists in the Android project -->
+	    <splash src="res/screen/android/splash.png" density="land-hdpi"/>
+	    <splash src="res/screen/android/splash.png" density="land-ldpi"/>
+	    <splash src="res/screen/android/splash.png" density="land-mdpi"/>
+	    <splash src="res/screen/android/splash.png" density="land-xhdpi"/>
+
+	    <splash src="res/screen/android/splash.png" density="port-hdpi"/>
+	    <splash src="res/screen/android/splash.png" density="port-ldpi"/>
+	    <splash src="res/screen/android/splash.png" density="port-mdpi"/>
+	    <splash src="res/screen/android/splash.png" density="port-xhdpi"/>
+	</platform>
+
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarBackgroundColor" value="#000000" />
+	<preference name="StatusBarStyle" value="lightcontent" />
+
+</widget>

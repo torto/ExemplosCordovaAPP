@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Info</title>
+    </head>
+    <body>
+        <div class="app">
+            <div class="page-header">
+                <h1>Device/Network Information <small>Plugin de info do sistema</small></h1>
+            </div>
+            <table class="table">
+                <caption>Device</caption>
+                <thead>
+                    <tr>
+                        <th>Info:</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Cordova</th>
+                        <td id="cordova"></td>
+                        
+                    </tr>
+                    <tr>
+                        <th scope="row">Modelo</th>
+                        <td id="model"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Platforma</th>
+                        <td id="platform"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">UUID</th>
+                        <td id="uuid"></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Versão</th>
+                        <td id="version"></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <table class="table">
+                <caption>Network Information</caption>
+                <thead>
+                    <tr>
+                        <th>Info:</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Tipo</th>
+                        <td id="tipo"></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+        </div>
+        
+        
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <a href="index.html" class="btn btn-info center-block btn-voltar">Voltar</a>
+            </div>
+        </nav>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/info.js"></script>
+    </body>
+</html>
