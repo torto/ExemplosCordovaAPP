@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.pato" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>PatoBranco</name>
+<widget id="br.com.torto.cordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>CordovaPlugins</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Aplicativo com todos os plugins oficiais do Cordova
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="tortoyoyo@gmail.com" href="http://softwarelivre.org/tortoyo/blog">
+        Guilherme Berghauser - Torto
     </author>
     <content src="index.html" />
     <access origin="*" />

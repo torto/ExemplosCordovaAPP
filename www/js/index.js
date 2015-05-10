@@ -17,7 +17,7 @@ var app = {
         var vibrar = document.querySelector('#vibrar');
         this.criarClick(vibrar, function() {
             if (navigator.vibrate) {
-                navigator.vibrate(3000);
+                navigator.notification.vibrate(1000);
             } else{
                 console.log('Por favor instale o plugin "Vibrate"');
             }
