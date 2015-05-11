@@ -8,47 +8,23 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Bateria</title>
+        <title>Toast</title>
     </head>
     <body>
         <div class="app center-block">
             <div class="page-header">
-                <h1>Battery-Status <small>Plugin da Bateria</small></h1>
+                <h1>Toast <small>Plugin de toast</small></h1>
             </div>
-           <table class="table">
-                <caption>Status da Bateria</caption>
-                <thead>
-                    <tr>
-                        <th>Level (%)</th>
-                        <th>Conectada a energia? </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th id="level" scope="row"></th>
-                        <td id="energia"></td>
-                    </tr>
-                </tbody>
-            </table>
             <ol class="breadcrumb">
-                <li>Bateria Critica</a></li>
+                <li>Disparar Toast</a></li>
             </ol>
             <div class="row">
                 <div class="col-xs-12">
-                    Está Critica?  <input type="radio" name="battery-critical" id="battery-critical" disabled>
-                </div>
-            </div>
-            <ol class="breadcrumb">
-                <li>Bateria Baixa</a></li>
-            </ol>
-            <div class="row">
-                <div class="col-xs-12">
-                    Está Baixa a carga?  <input type="radio" name="battery-low" id="battery-critical" disabled>
+                    <button id="criar-toast" class="btn btn-default btn-full">navigator.toast.criarToast</button>
                 </div>
             </div>
             
-        </div>
-        
+            
         
         <nav class="navbar navbar-default navbar-fixed-bottom">
             <div class="container">
@@ -56,6 +32,6 @@
             </div>
         </nav>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/battery.js"></script>
+        <script type="text/javascript" src="js/toast.js"></script>
     </body>
 </html>

@@ -8,50 +8,56 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Dialogs</title>
+        <title>SQlite</title>
     </head>
     <body>
         <div class="app center-block">
             <div class="page-header">
-                <h1>Dialogs <small>Dialogs bonitinhos</small></h1>
+                <h1>SQlite <small>acesso ao SQlite</small></h1>
             </div>
             <ol class="breadcrumb">
-                <li>Alerta</a></li>
+                <li>Cria tabela</a></li>
             </ol>
             <div class="row">
                 <div class="col-xs-12">
-                    <button id="alert" class="btn btn-default btn-full">Dialog Alert</button>
+                    <button id="create-table" class="btn btn-default btn-full">Tabela Pessoas</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <textarea id="create" readonly="true" name="create" style="width: 100%"></textarea>
                 </div>
             </div>
             
             <ol class="breadcrumb">
-                <li>Confirmação</a></li>
+                <li>Inserir Valores</a></li>
             </ol>
             <div class="row">
                 <div class="col-xs-12">
-                    <button id="confirm" class="btn btn-default btn-full">Dialog Confirm</button>
+                    <button id="insert-into" class="btn btn-default btn-full">Inserir Valores</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <textarea id="insert" readonly="true" name="create" style="width: 100%"></textarea>
+                </div>
+            </div>
+
+            <ol class="breadcrumb">
+                <li>Selecionar Valores</a></li>
+            </ol>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button id="select-values" class="btn btn-default btn-full">Selecionar Valores</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <textarea id="select" rows="20" name="create" style="width: 100%" readonly="true"></textarea>
                 </div>
             </div>
             
-            <ol class="breadcrumb">
-                <li>Dialog com input</a></li>
-            </ol>
-            <div class="row">
-                <div class="col-xs-12">
-                    <button id="prompt" class="btn btn-default btn-full">Dialog Prompt</button>
-                </div>
-            </div>
             
-            <ol class="breadcrumb">
-                <li>Beep</a></li>
-            </ol>
-            <div class="row">
-                <div class="col-xs-12">
-                    <button id="beep" class="btn btn-default btn-full">Beep</button>
-                </div>
-            </div>
-        </div>
-        
         
         
         
@@ -61,6 +67,6 @@
             </div>
         </nav>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/dialogs.js"></script>
+        <script type="text/javascript" src="js/sqlite.js"></script>
     </body>
 </html>

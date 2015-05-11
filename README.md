@@ -70,6 +70,10 @@ Não esqueçam de colocar no PATH as pastas dos sdks e Apache Ant. [Confira a do
 
 > $ cordova plugin add org.apache.cordova.statusbar
 
+> $ cordova plugin add io.litehelpers.cordova.sqlite
+
+> $ cordova plugin add io.github.tortoyoyo.toast
+
 * Inserindo os arquivos
 
 Baixe todos os arquivos do repositorio e insira na pasta que acabou de criar com o cordova, no nosso exemplo se chama **examples**.
