@@ -25,11 +25,13 @@ Não esqueçam de colocar no PATH as pastas dos sdks e Apache Ant. [Confira a do
 * Criando o projeto
 
 `$ cordova create examples br.com.torto.cordova CordovaPlugins`
+
 `$ cd examples`
 
 * Instalando Plataformas
 
 `$ cordova platform add android`
+
 `$ cordova platform add firefoxos`
 
 * Instalando Plugins
