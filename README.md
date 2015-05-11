@@ -20,59 +20,59 @@ Não esqueçam de colocar no PATH as pastas dos sdks e Apache Ant. [Confira a do
 
 * Download do Cordova
 
-> $ sudo npm install -g cordova
+`$ sudo npm install -g cordova`
 
 * Criando o projeto
 
-> $ cordova create examples br.com.torto.cordova CordovaPlugins
-> $ cd examples
+`$ cordova create examples br.com.torto.cordova CordovaPlugins`
+`$ cd examples`
 
 * Instalando Plataformas
 
-> $ cordova platform add android
-> $ cordova platform add firefoxos
+`$ cordova platform add android`
+`$ cordova platform add firefoxos`
 
 * Instalando Plugins
 
-> $ cordova plugin add org.apache.cordova.battery-status
+`$ cordova plugin add org.apache.cordova.battery-status`
 
-> $ cordova plugin add org.apache.cordova.camera
+`$ cordova plugin add org.apache.cordova.camera`
 
-> $ cordova plugin add org.apache.cordova.contacts 
+`$ cordova plugin add org.apache.cordova.contacts `
 
-> $ cordova plugin add org.apache.cordova.device 
+`$ cordova plugin add org.apache.cordova.device `
 
-> $ cordova plugin add org.apache.cordova.console 
+`$ cordova plugin add org.apache.cordova.console `
 
-> $ cordova plugin add org.apache.cordova.device-motion
+`$ cordova plugin add org.apache.cordova.device-motion`
 
-> $ cordova plugin add org.apache.cordova.device-orientation 
+`$ cordova plugin add org.apache.cordova.device-orientation `
 
-> $ cordova plugin add org.apache.cordova.dialogs 
+`$ cordova plugin add org.apache.cordova.dialogs `
 
-> $ cordova plugin add org.apache.cordova.file
+`$ cordova plugin add org.apache.cordova.file`
 
-> $ cordova plugin add org.apache.cordova.file-transfer 
+`$ cordova plugin add org.apache.cordova.file-transfer `
 
-> $ cordova plugin add org.apache.cordova.geolocation 
+`$ cordova plugin add org.apache.cordova.geolocation `
 
-> $ cordova plugin add org.apache.cordova.globalization 
+`$ cordova plugin add org.apache.cordova.globalization `
 
-> $ cordova plugin add org.apache.cordova.media 
+`$ cordova plugin add org.apache.cordova.media `
 
-> $ cordova plugin add org.apache.cordova.media-capture
+`$ cordova plugin add org.apache.cordova.media-capture`
 
-> $ cordova plugin add org.apache.cordova.network-information
+`$ cordova plugin add org.apache.cordova.network-information`
 
-> $ cordova plugin add org.apache.cordova.splashscreen 
+`$ cordova plugin add org.apache.cordova.splashscreen `
 
-> $ cordova plugin add org.apache.cordova.vibration 
+`$ cordova plugin add org.apache.cordova.vibration `
 
-> $ cordova plugin add org.apache.cordova.statusbar
+` $ cordova plugin add org.apache.cordova.statusbar`
 
-> $ cordova plugin add io.litehelpers.cordova.sqlite
+` $ cordova plugin add io.litehelpers.cordova.sqlite`
 
-> $ cordova plugin add io.github.tortoyoyo.toast
+` $ cordova plugin add io.github.tortoyoyo.toast`
 
 * Inserindo os arquivos
 
@@ -80,11 +80,11 @@ Baixe todos os arquivos do repositorio e insira na pasta que acabou de criar com
 
 * Rodando no Android
 
-> $ cordova run android
+`$ cordova run android`
 
 * Criando o build para Firefoxos
 
-> $ cordova build firefox
+`$ cordova build firefox`
 
 
 ## Android
