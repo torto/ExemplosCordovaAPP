@@ -12,7 +12,7 @@ body {
     margin: 0px;
     padding: 0px;
     text-transform: uppercase;
-    width: 90%;
+    width: 100%;
 }
 .btn-voltar {
     margin-top: 7px !important;
@@ -31,11 +31,8 @@ body {
     width: 100% !important;
 }
 .app {
-    margin-left: 5%;
     margin-bottom: 60px;
-}
-.app-index {
-    margin-left: 5%;
+    width: 90%;
 }
 .breadcrumb {
     margin-top: 10px;

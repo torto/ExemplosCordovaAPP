@@ -18,10 +18,14 @@ var app = {
         this.criarClick(vibrar, function() {
             if (navigator.vibrate) {
                 navigator.notification.vibrate(1000);
-            } else{
+            } else {
                 console.log('Por favor instale o plugin "Vibrate"');
             }
         });
+
+
+        // navigator.toast.criarToast('Tortoooo', function(e){alert(e)}, function(e){alert(e)}, {body: 'testeeee', icon:'img/logo.png'});
+
 
 
     },
